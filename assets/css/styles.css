@@ -262,7 +262,7 @@ img {
 /*===== HOME =====*/
 .home {
   /* background-color: #303030; */
-  background-image: url("assets/img/home.jpg");
+  background-image: url("assets/img/welcome.jpg");
   overflow: hidden;
 }
 
