@@ -69,7 +69,7 @@ body{
     line-height: 1.6;
 }
 h1,h2,h3,ul,p{
-    margin: 0;  
+    margin: 0;
 }
 h2,h3{
     font-weight: var(--font-semi-bold);
@@ -135,7 +135,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     &__menu{
         @media screen and (max-width: 768px){
             position: fixed;
@@ -156,7 +156,7 @@ img{
     &__link{
         color: var(--first-color-lighten);
         transition: .3s;
-        
+
         &:hover{
             color: var(--first-color-light);
         }
@@ -178,7 +178,7 @@ img{
 /* Active menu */
 .active-link{
     position: relative;
-    
+
     &::after{
         content: '';
         position: absolute;
@@ -194,11 +194,11 @@ img{
 .scroll-header{
     background-color: var(--first-color-lighten);
     box-shadow: 0 2px 4px rgba(0,0,0,.1);
-    
+
     & .nav__logo, .nav__toggle, .nav__link{
         color: var(--first-color-dark);
     }
-    
+
     & .nav__menu{
         background-color: var(--first-color-lighten);
     }
@@ -239,7 +239,7 @@ img{
 .home{
     background-color: #000;
     overflow: hidden;
-    
+
     &__container{
         position: relative;
         height: calc(100vh - var(--header-height));
@@ -247,7 +247,7 @@ img{
         align-content: space-around;
         row-gap: 2rem;
     }
-    
+
     &__data{
         border-left: 4px solid var(--first-color-lighten);
         color: var(--first-color-lighten);
@@ -272,7 +272,7 @@ img{
         position: absolute;
         right: 0;
         bottom: 0;
-        
+
         & img{
             width: 240px;
         }
@@ -280,13 +280,13 @@ img{
     &__social{
         display: flex;
         flex-direction: column;
-        
+
         &-icon{
             width: max-content;
             font-size: 1.3rem;
             margin-bottom: var(--mb-2);
             color: var(--first-color-lighten);
-            
+
             &:hover{
                 color: var(--first-color-light);
             }
@@ -300,13 +300,13 @@ img{
     background-color: var(--first-color);
     color: var(--first-color-lighten);
     padding: .75rem 1rem;
-    border-radius: .25rem; 
+    border-radius: .25rem;
     transition: .3s;
-    
+
     &:hover{
         background-color: var(--first-color-dark);
     }
-    
+
     &-light{
         background-color: var(--first-color-light);
     }
@@ -401,7 +401,7 @@ img{
         text-align: center;
         transition: .4s;
         box-shadow: 0 4px 6px rgba(174,190,205,.3);
-        
+
         &:hover{
             transform: translateY(-.5rem);
             box-shadow: 0 6px 8px rgba(174,190,205,.4);
@@ -460,7 +460,7 @@ img{
         border-radius: .5rem;
         overflow: hidden;
         box-shadow: 0 4px 6px rgba(174,190,205,.3);
-        
+
         &:hover{
             box-shadow: 0 6px 8px rgba(174,190,205,.4);
         }
@@ -538,7 +538,7 @@ img{
         padding: 1.5rem;
         text-align: center;
         box-shadow: 0 4px 6px rgba(174,190,205,.3);
-        
+
         &:hover{
             box-shadow: 0 6px 8px rgba(174,190,205,.4);
         }
@@ -639,7 +639,7 @@ img{
     }
 
     .about__container,
-    .qualification__container, 
+    .qualification__container,
     .services__container,
     .portfolio__container{
         grid-template-columns: repeat(2, 1fr);

@@ -40,21 +40,21 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
-/*===== CHANGE BACKGROUND HEADER =====*/ 
+/*===== CHANGE BACKGROUND HEADER =====*/
 function scrollHeader(){
     const nav = document.getElementById('header');
     if(this.scrollY >= 200) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header');
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*===== SHOW SCROLL TOP=====*/ 
+/*===== SHOW SCROLL TOP=====*/
 function scrollTop(){
     const scrollTop = document.getElementById('scroll-top');
     if(this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll');
 }
 window.addEventListener('scroll', scrollTop)
 
-/*===== MIXITUP FILTER PORTFOLIO =====*/ 
+/*===== MIXITUP FILTER PORTFOLIO =====*/
 var mixer = mixitup(".portfolio__container", {
     selectors: {
         target: '.portfolio__content'
@@ -64,7 +64,7 @@ var mixer = mixitup(".portfolio__container", {
     }
 });
 
-/* Link active portfolio */ 
+/* Link active portfolio */
 const linkPortfolio = document.querySelectorAll('.portfolio__item')
 
 function activePortfolio(){
@@ -75,12 +75,12 @@ function activePortfolio(){
 }
 linkPortfolio.forEach(l=> l.addEventListener('click', activePortfolio))
 
-/*===== SWIPER CAROUSEL =====*/ 
+/*===== SWIPER CAROUSEL =====*/
 const mySwiper = new Swiper('.testimonial__container', {
     spaceBetween: 16,
     loop: true,
     grabCursor: true,
-    
+
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
