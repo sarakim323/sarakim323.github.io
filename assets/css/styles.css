@@ -155,7 +155,9 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color:  var(--first-color-lightest);
+  background-color: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("/Users/SaraKim/Projects/sarakim323.github.io/assets/img/main.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*===== NAV =====*/
@@ -275,7 +277,7 @@ img {
 /*===== HOME =====*/
 .home {
   /* background-color: #303030; */
-  background-image: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("/Users/SaraKim/Projects/sarakim323.github.io/assets/img/s.jpeg");
+  background-image: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("/Users/SaraKim/Projects/sarakim323.github.io/assets/img/main.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -290,8 +292,8 @@ img {
 }
 
 .home__data {
-  border-left: 4px solid var(--first-color-lighten);
-  color: var(--first-color-lighten);
+  border-left: 4px solid var(--first-color);
+  color: var(--first-color);
   padding-left: 1.5rem;
   z-index: var(--z-tootip);
 }
