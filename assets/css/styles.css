@@ -107,6 +107,13 @@ img {
   display: block;
 }
 
+#profile-pic {
+  border-radius: 50%;
+  max-width: 75%;
+  height: auto;
+  margin-bottom: 150px;
+}
+
 /*===== CLASS CSS =====*/
 .section {
   padding: 4rem 0 2rem;
@@ -190,6 +197,11 @@ img {
   color: var(--first-color-lighten);
 }
 
+.nav__logo {
+  width: 8%;
+  margin-top: 5px;
+}
+
 .nav__toggle {
   font-size: 1.3rem;
   cursor: pointer;
@@ -261,8 +273,11 @@ img {
 
 /*===== HOME =====*/
 .home {
-  /* background-color: #303030; */
-  background-image: url("assets/img/welcome.jpg");
+  background-color: #303030;
+  background-image: linear-gradient(#303030, #303030, #FBF9F9);
+  /* background-image: url('assets/img/welcome.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
 }
 
