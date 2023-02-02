@@ -1,16 +1,16 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
   /*===== Colors =====*/
-  --first-color: #3E0E12;
-  --first-color-dark: #2F0A0D;
+  --first-color: #303030;
+  --first-color-dark: #1f1f1f;
   --text-color: #524748;
   --first-color-light: #7B6F71;
   --first-color-lighten: #FBF9F9;
   /*===== Font and typography =====*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Source Sans 3', sans-serif;
   --biggest-font-size: 2.5rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -129,7 +129,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #000;
+  background-color: #303030;
 }
 
 /*===== NAV =====*/
@@ -148,7 +148,7 @@ img {
     width: 100%;
     padding-top: 1.5rem;
     text-align: center;
-    background-color: #000;
+    background-color: #303030;
     transition: .4s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 1rem 1rem;
@@ -243,7 +243,7 @@ img {
 
 /*===== HOME =====*/
 .home {
-  background-color: #000;
+  background-color: #303030;
   overflow: hidden;
 }
 
@@ -403,63 +403,6 @@ img {
 
 .qualification__work {
   display: block;
-}
-
-/*===== SERVICES =====*/
-.services__data {
-  padding: 3rem 1rem;
-  background-color: #FFF;
-  border-radius: .5rem;
-  text-align: center;
-  transition: .4s;
-  box-shadow: 0 4px 6px rgba(174, 190, 205, 0.3);
-}
-
-.services__data:hover {
-  transform: translateY(-0.5rem);
-  box-shadow: 0 6px 8px rgba(174, 190, 205, 0.4);
-}
-
-.services__icon, .services__title {
-  margin-bottom: var(--mb-2);
-  color: var(--first-color);
-}
-
-.services__icon {
-  font-size: 3rem;
-}
-
-.services__title {
-  font-size: var(--h3-font-size);
-}
-
-.services__description {
-  margin-bottom: var(--mb-4);
-}
-
-/*===== PROJECT IN MIND =====*/
-.project__container {
-  padding: 1.5rem 1rem;
-  background-color: var(--first-color-dark);
-  color: var(--first-color-lighten);
-  border-radius: .5rem;
-  text-align: center;
-}
-
-.project__icon, .project__title {
-  margin-bottom: var(--mb-1);
-}
-
-.project__icon {
-  font-size: 3.5rem;
-}
-
-.project__title {
-  font-size: 1.5rem;
-}
-
-.project__description {
-  margin-bottom: var(--mb-4);
 }
 
 /*===== PORTFOLIO =====*/
