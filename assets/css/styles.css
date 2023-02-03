@@ -155,7 +155,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("img/main.jpeg");
+  background-color: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("main.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -233,7 +233,7 @@ img {
 /* Change background header */
 .scroll-header {
   background-color: var(--first-color-lightest);
-  /* background-color: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("img/main.jpeg"); */
+  /* background-color: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("main.jpeg"); */
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -280,7 +280,7 @@ img {
 /*===== HOME =====*/
 .home {
   /* background-color: #303030; */
-  background-image: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("img/main.jpeg");
+  background-image: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("main.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
