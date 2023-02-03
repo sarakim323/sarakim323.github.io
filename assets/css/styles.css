@@ -614,11 +614,12 @@ img {
 .contact__button {
   cursor: pointer;
   border: none;
+  text-align: center;
 }
 
 /*===== FOOTER =====*/
 .footer {
-  background-color: var(--first-color-dark);
+  background-color: var(--first-color);
   color: var(--first-color-lighten);
   text-align: center;
 }
