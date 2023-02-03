@@ -289,22 +289,31 @@ img {
   grid-template-rows: repeat(2, max-content);
   align-content: space-around;
   row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .home__data {
-  border-left: 4px solid var(--first-color);
+  /* border-top: 4px solid var(--first-color); */
+  border-bottom: 4px solid var(--first-color);
   color: var(--first-color);
-  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   z-index: var(--z-tootip);
+  text-align: center;
 }
 
 .home__name {
   font-size: var(--biggest-font-size);
+  justify-content: center;
+  align-items: center;
 }
 
 .home__greeting, .home__profession {
   display: block;
   font-weight: var(--font-bold);
+  justify-content: center;
+  align-items: center;
 }
 
 .home__greeting {
@@ -329,23 +338,32 @@ img {
 .home__social {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .home__social-icon {
   width: max-content;
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   margin-bottom: var(--mb-2);
-  color: var(--first-color-lighten);
+  color: #7B6F71;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .home__social-icon:hover {
-  color: var(--first-color-light);
+  /* color: var(--first-color-lighten); */
+  justify-content: center;
+  align-items: center;
+  color: rgba(123, 111, 113, .5);
 }
 
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--first-color-light);
   color: var(--first-color-lighten);
   padding: .75rem 1rem;
   border-radius: .25rem;
@@ -353,7 +371,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--first-color-dark);
+  background-color: rgba(123, 111, 113, .5);
 }
 
 .button-light {
@@ -371,7 +389,7 @@ img {
 
 .button-link {
   background: none;
-  color: var(--first-color);
+  color: var(--first-color-light);
   padding: 0;
 }
 
@@ -704,6 +722,7 @@ img {
   .home__social-icon {
     margin-right: var(--mb-4);
     margin-bottom: 0;
+    color: var(--first-color-dark);
   }
   .home__img img {
     width: 420px;
