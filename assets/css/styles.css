@@ -169,6 +169,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .l-header {
+    background-color: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("https://sarakim323.github.io/assets/img/main.jpeg");
+  }
   .nav__menu {
     position: fixed;
     top: -100%;
@@ -176,7 +179,7 @@ img {
     width: 100%;
     padding-top: 1.5rem;
     text-align: center;
-    background-image: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("https://sarakim323.github.io/assets/img/main.jpeg");
+    background-color: var(--first-color-lightest);
     transition: .4s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 1rem 1rem;
@@ -269,7 +272,7 @@ img {
 
 .scrolltop__icon {
   font-size: 2rem;
-  color: var(--first-color-lighten);
+  color: var(--first-color-light);
 }
 
 .show-scroll {
