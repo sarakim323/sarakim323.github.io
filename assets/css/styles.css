@@ -197,8 +197,9 @@ img {
   color: var(--first-color-lightest);
 }
 
+/* Menu logo color? */
 .nav__logo, .nav__toggle {
-  color: var(--first-color-lightest);
+  color: var(--first-color-light);
 }
 
 .nav__logo {
