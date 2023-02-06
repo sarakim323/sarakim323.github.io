@@ -169,9 +169,6 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .l-header {
-    background-color: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("https://sarakim323.github.io/assets/img/main.jpeg");
-  }
   .nav__menu {
     position: fixed;
     top: -100%;
@@ -259,8 +256,7 @@ img {
   justify-content: center;
   align-items: center;
   padding: .5rem;
-  /* background: var(--first-color-lightest); */
-  background-image: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("https://sarakim323.github.io/assets/img/main.jpeg");
+  background: var(--first-color-lightest);
   border-radius: .5rem;
   z-index: var(--z-tootip);
   transition: .4s;
