@@ -168,7 +168,11 @@ img {
   align-items: center;
 }
 
+/*===== background color when menu icon is open =====*/
 @media screen and (max-width: 768px) {
+  .l-header {
+    background-color: var(--first-color-lightest);
+  }
   .nav__menu {
     position: fixed;
     top: -100%;
@@ -176,8 +180,7 @@ img {
     width: 100%;
     padding-top: 1.5rem;
     text-align: center;
-    /* background-color: var(--first-color-lightest); */
-    background-color: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("https://sarakim323.github.io/assets/img/main.jpeg");
+    background-color: var(--first-color-lightest);
     transition: .4s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 1rem 1rem;
@@ -198,7 +201,7 @@ img {
 }
 
 /* Menu logo color? */
-.nav__logo, .nav__toggle {
+.nav__logo {
   color: var(--first-color-light);
 }
 
@@ -235,17 +238,15 @@ img {
 /* Change background header */
 .scroll-header {
   background-color: var(--first-color-lightest);
-  /* background-color: linear-gradient(to right, rgba(245, 245, 245, 0.13), rgba(245, 245, 245, .13)), url("https://sarakim323.github.io/assets/img/main.jpeg"); */
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.scroll-header .nav__logo, .scroll-header .nav__toggle, .scroll-header .nav__link {
+.scroll-header, .scroll-header .nav__toggle, .scroll-header .nav__link {
   color: var(--first-color-dark);
 }
 
-/*===== COLOR WHEN NAV MENU IS OPEN =====*/
 .scroll-header .nav__menu {
   background-color: var(--first-color-lightest);
 }
@@ -261,7 +262,7 @@ img {
   padding: .5rem;
   background: var(--first-color-lightest);
   border-radius: .5rem;
-  z-index: var(--z-tootip);
+  z-index: var(--z-fixed);
   transition: .4s;
   visibility: hidden;
 }
